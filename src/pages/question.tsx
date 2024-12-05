@@ -12,6 +12,7 @@ import { useApi } from "@/_api";
 import { cn, randomChoice, shuffle } from "@/lib/utils";
 import { delay } from "ts-prime";
 import { Question } from "@/_api/interface";
+import { Carousel, CarouselContent } from "@/components/ui/carousel";
 
 const QuestionContext = createContext<Question | null>(null);
 
@@ -57,23 +58,25 @@ function QuestionAnswerButton({
   });
 
   return (
-    <Button
+    <div
       onMouseDown={() => {
         clickMutation.mutate();
       }}
       className={cn(
-        "text-wrap",
-        "min-h-12 p-8",
+        "text-wrap text-center flex justify-center items-center cursor-pointer",
+        "min-h-12 p-8 bg-black rounded-md",
         correctness === "correct"
-          ? "active:bg-green-500 focus:bg-green-500 bg-green-500"
+          ? "active:focus:hover:bg-green-500 bg-green-500"
           : "",
-        correctness === "incorrect" ? "active:bg-red-500 bg-red-500" : ""
+        correctness === "incorrect"
+          ? "active:focus:hover:bg-red-500 bg-red-500"
+          : ""
       )}
-      variant={"outline"}
-      size={"lg"}
     >
-      {children}
-    </Button>
+      {correctness === "neutral" && <>{children}</>}
+      {correctness === "correct" && <>Teisingai</>}
+      {correctness === "incorrect" && <>Neteisingai</>}
+    </div>
   );
 }
 
@@ -109,7 +112,7 @@ export function QuestionPage() {
       (c) => c.id === data.correctAnswerMuscle
     );
     if (correctAnswer == null) return null;
-    return randomChoice(correctAnswer.pictures);
+    return correctAnswer.pictures;
   }, [data]);
   if (data == null) return null;
   if (picture == null) return null;
@@ -118,9 +121,34 @@ export function QuestionPage() {
       <div className=" w-full h-full dark:bg-slate-900 flex justify-center items-center mb-16">
         <div className="h-full w-full dark:text-white p-2 flex flex-col justify-between max-w-[600px]">
           <div className="grow pb-3">
-            <div className="text-center py-8 text-2xl">Kas tai per raumuo?</div>
+            {stage === "name" && (
+              <div className="text-center py-8 text-2xl">
+                Kas tai per raumuo?
+              </div>
+            )}
+            {stage === "start" && (
+              <div className="text-center py-8 text-2xl">
+                Nurodyk raumens pradžią
+              </div>
+            )}
+            {stage === "finish" && (
+              <div className="text-center py-8 text-2xl">
+                Nurodyk raumens pabaigą
+              </div>
+            )}
+            {stage === "function" && (
+              <div className="text-center py-8 text-2xl">
+                Nurodyk raumens funkciją
+              </div>
+            )}
             <div className="rounded-md overflow-hidden">
-              <img className="w-full" src={picture} alt="" />
+              <Carousel>
+                <CarouselContent>
+                  {picture.map((v) => {
+                    return <img className="w-full" src={v} alt="" />;
+                  })}
+                </CarouselContent>
+              </Carousel>
             </div>
           </div>
           <QuestionAnswers
