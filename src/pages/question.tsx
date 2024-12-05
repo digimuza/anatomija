@@ -115,8 +115,8 @@ export function QuestionPage() {
   if (picture == null) return null;
   return (
     <QuestionContext.Provider value={data}>
-      <div className=" w-full h-full dark:bg-slate-900 flex justify-center items-center">
-        <div className="h-full w-full dark:text-white p-2 flex flex-col justify-between max-w-[600px] ">
+      <div className=" w-full h-full dark:bg-slate-900 flex justify-center items-center mb-16">
+        <div className="h-full w-full dark:text-white p-2 flex flex-col justify-between max-w-[600px]">
           <div className="grow pb-3">
             <div className="text-center py-8 text-2xl">Kas tai per raumuo?</div>
             <div className="rounded-md overflow-hidden">
@@ -146,7 +146,7 @@ export function QuestionPage() {
             }}
           />
 
-          <div className=" h-12"></div>
+          <div className="min-h-32"></div>
         </div>
       </div>
     </QuestionContext.Provider>

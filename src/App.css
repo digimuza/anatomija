@@ -1,5 +1,6 @@
 body {
   height: 100vh;
+  @apply bg-slate-900
 }
 
 #root {
