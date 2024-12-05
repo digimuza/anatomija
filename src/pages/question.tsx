@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   createContext,
   PropsWithChildren,
@@ -9,7 +8,7 @@ import {
 
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { useApi } from "@/_api";
-import { cn, randomChoice, shuffle } from "@/lib/utils";
+import { cn, shuffle } from "@/lib/utils";
 import { delay } from "ts-prime";
 import { Question } from "@/_api/interface";
 import { Carousel, CarouselContent } from "@/components/ui/carousel";
