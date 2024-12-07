@@ -66,6 +66,7 @@ export function QuizAnswers() {
   return (
     <div key={stage} className="grid grid-cols-1 gap-2">
       {shuffle(question.choices).map((choice) => {
+        if (choice[stage] == null) return null;
         return (
           <QuizAnswerButton id={choice.id}>{choice[stage]}</QuizAnswerButton>
         );
@@ -98,7 +99,7 @@ export function QuizHeader() {
 export function QuizMuscleImage() {
   const { correctAnswer } = QuizContext.useContext();
   return (
-    <div className="rounded-md overflow-hidden">
+    <div className="bg-black rounded-md overflow-hidden">
       <Carousel>
         <CarouselContent>
           {correctAnswer.pictures.map((v) => {
@@ -106,6 +107,17 @@ export function QuizMuscleImage() {
           })}
         </CarouselContent>
       </Carousel>
+      <QuizLatinMuscleName />
+    </div>
+  );
+}
+
+export function QuizLatinMuscleName() {
+  const { correctAnswer } = QuizContext.useContext();
+  if (correctAnswer.latin == null) return null;
+  return (
+    <div className="text-center py-3">
+      <span className="text-md">{correctAnswer.latin}</span>
     </div>
   );
 }

@@ -336,7 +336,7 @@ const poliezuviniai_raumenys: Record<string, Omit<Muscle, "id">> = {
   },
 };
 
-export const headMucles = {
+export const headMuscles = {
   ...karmtuomieji_raumenys,
   ...poliezuviniai_raumenys,
 };

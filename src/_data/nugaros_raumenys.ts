@@ -186,5 +186,4 @@ export const backMuscles = {
   ...pavirsiniai_galuniniai,
   ...pavirsiniai_savieji,
   ...gilieji_ilgieji,
-  // ...gilieji_trumpieji,
 };
