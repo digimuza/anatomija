@@ -10,30 +10,28 @@ export function QuizAnswerButton(props: PropsWithChildren<{ id: string }>) {
   const [correctness, setCorrectness] = useState<
     "correct" | "incorrect" | "neutral"
   >("neutral");
-  const { question, next, stage, setStage } = QuizContext.useContext();
+  const { question, next, stage, setStage, correctAnswer } =
+    QuizContext.useContext();
   const isCorrect = question.correctAnswerMuscle === props.id;
   const clickMutation = useMutation({
     mutationFn: async () => {
       if (isCorrect) {
         setCorrectness("correct");
         await delay(1000);
-        if (stage === "name") {
+        if (stage === "name" && correctAnswer.start) {
           setStage("start");
           return;
         }
-        if (stage === "start") {
+        if (stage === "start" && correctAnswer.finish) {
           setStage("finish");
           return;
         }
-        if (stage === "finish") {
+        if (stage === "finish" && correctAnswer.function) {
           setStage("function");
           return;
         }
-        if (stage === "function") {
-          next();
-          setStage("name");
-        }
-        return;
+        next();
+        setStage("name");
       }
 
       setCorrectness("incorrect");

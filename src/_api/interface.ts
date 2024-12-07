@@ -1,11 +1,12 @@
 export interface Muscle {
   id: string;
   name: string;
+  latin?: string;
   group: string;
   pictures: string[];
-  start: string;
-  finish: string;
-  function: string;
+  start?: string;
+  finish?: string;
+  function?: string;
 }
 
 export interface Question {
