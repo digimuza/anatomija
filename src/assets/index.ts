@@ -6,6 +6,8 @@ import antgalvinis_raumuo_kaktinis_pilvelis_2 from "./muscles/antgalvinis_raumuo
 import antgalvinis_raumuo_pakausinis_pilvelis_1 from "./muscles/antgalvinis_raumuo_pakausinis_pilvelis/1.png";
 import antgalvinis_raumuo_pakausinis_pilvelis_2 from "./muscles/antgalvinis_raumuo_pakausinis_pilvelis/2.png";
 import ausies_aplinkos_raumenys_1 from "./muscles/ausies_aplinkos_raumenys/1.png";
+import diafragma_1 from "./muscles/diafragma/1.png";
+import diafragma_2 from "./muscles/diafragma/2.png";
 import didysis_ir_mazasis_skruosto_raumenys_1 from "./muscles/didysis_ir_mazasis_skruosto_raumenys/1.png";
 import didysis_ir_mazasis_skruosto_raumenys_2 from "./muscles/didysis_ir_mazasis_skruosto_raumenys/2.png";
 import dirzinis_galvos_raumuo_1 from "./muscles/dirzinis_galvos_raumuo/1.png";
@@ -21,6 +23,9 @@ import dvipilvis_raumuo_1 from "./muscles/dvipilvis_raumuo/1.png";
 import dvipilvis_raumuo_2 from "./muscles/dvipilvis_raumuo/2.png";
 import dvipilvis_raumuo_3 from "./muscles/dvipilvis_raumuo/3.png";
 import dvipilvis_raumuo_4 from "./muscles/dvipilvis_raumuo/4.png";
+import dydysis_krutines_raumuo_1 from "./muscles/dydysis_krutines_raumuo/1.png";
+import dydysis_krutines_raumuo_2 from "./muscles/dydysis_krutines_raumuo/2.png";
+import dydysis_krutines_raumuo_3 from "./muscles/dydysis_krutines_raumuo/3.png";
 import dydysis_rombinis_raumuo_1 from "./muscles/dydysis_rombinis_raumuo/1.png";
 import dydysis_rombinis_raumuo_2 from "./muscles/dydysis_rombinis_raumuo/2.png";
 import dydysis_rombinis_raumuo_3 from "./muscles/dydysis_rombinis_raumuo/3.png";
@@ -33,6 +38,9 @@ import ilgiausiasis_nugaros_raumuo_1 from "./muscles/ilgiausiasis_nugaros_raumuo
 import ilgiausiasis_nugaros_raumuo_2 from "./muscles/ilgiausiasis_nugaros_raumuo/2.png";
 import ilgiausiasis_nugaros_raumuo_3 from "./muscles/ilgiausiasis_nugaros_raumuo/3.png";
 import ilgiausiasis_nugaros_raumuo_4 from "./muscles/ilgiausiasis_nugaros_raumuo/4.png";
+import isoriniai_tarpkostiniai_raumenys_1 from "./muscles/isoriniai_tarpkostiniai_raumenys/1.png";
+import istrizinis_pilvo_raumuo_1 from "./muscles/istrizinis_pilvo_raumuo/1.png";
+import istrizinis_pilvo_raumuo_2 from "./muscles/istrizinis_pilvo_raumuo/2.png";
 import juoko_raumuo_1 from "./muscles/juoko_raumuo/1.png";
 import juoko_raumuo_2 from "./muscles/juoko_raumuo/2.png";
 import keliamasis_lupu_kampo_raumuo_1 from "./muscles/keliamasis_lupu_kampo_raumuo/1.png";
@@ -62,6 +70,10 @@ import krutininis_poliezuvio_raumuo_3 from "./muscles/krutininis_poliezuvio_raum
 import krutininis_skydo_raumuo_1 from "./muscles/krutininis_skydo_raumuo/1.png";
 import krutininis_skydo_raumuo_2 from "./muscles/krutininis_skydo_raumuo/2.png";
 import krutininis_skydo_raumuo_3 from "./muscles/krutininis_skydo_raumuo/3.png";
+import kvadratinis_juosmens_raumuo_1 from "./muscles/kvadratinis_juosmens_raumuo/1.png";
+import kvadratinis_juosmens_raumuo_2 from "./muscles/kvadratinis_juosmens_raumuo/2.png";
+import mazasis_krutines_raumuo_1 from "./muscles/mazasis_krutines_raumuo/1.png";
+import mazasis_krutines_raumuo_2 from "./muscles/mazasis_krutines_raumuo/2.png";
 import mazasis_rombinis_raumuo_1 from "./muscles/mazasis_rombinis_raumuo/1.png";
 import mazasis_rombinis_raumuo_2 from "./muscles/mazasis_rombinis_raumuo/2.png";
 import mazasis_rombinis_raumuo_3 from "./muscles/mazasis_rombinis_raumuo/3.png";
@@ -76,6 +88,8 @@ import nuleidziamasis_aptines_lupos_raumuo_1 from "./muscles/nuleidziamasis_apti
 import nuleidziamasis_aptines_lupos_raumuo_2 from "./muscles/nuleidziamasis_aptines_lupos_raumuo/2.png";
 import nuleidzimasis_lupu_kampo_raumuo_1 from "./muscles/nuleidzimasis_lupu_kampo_raumuo/1.png";
 import nuleidzimasis_lupu_kampo_raumuo_2 from "./muscles/nuleidzimasis_lupu_kampo_raumuo/2.png";
+import piramidinis_pilvo_raumuo_1 from "./muscles/piramidinis_pilvo_raumuo/1.png";
+import piramidinis_pilvo_raumuo_2 from "./muscles/piramidinis_pilvo_raumuo/2.png";
 import placiajuostis_nugaros_raumuo_1 from "./muscles/placiajuostis_nugaros_raumuo/1.png";
 import placiajuostis_nugaros_raumuo_2 from "./muscles/placiajuostis_nugaros_raumuo/2.png";
 import placiajuostis_nugaros_raumuo_3 from "./muscles/placiajuostis_nugaros_raumuo/3.png";
@@ -84,6 +98,9 @@ import pleciamasis_snerves_raumuo_1 from "./muscles/pleciamasis_snerves_raumuo/1
 import pleciamasis_snerves_raumuo_2 from "./muscles/pleciamasis_snerves_raumuo/2.png";
 import poodinis_kaklo_raumuo_1 from "./muscles/poodinis_kaklo_raumuo/1.png";
 import poodinis_kaklo_raumuo_2 from "./muscles/poodinis_kaklo_raumuo/2.png";
+import porankinis_raumuo_1 from "./muscles/porankinis_raumuo/1.png";
+import porankinis_raumuo_2 from "./muscles/porankinis_raumuo/2.png";
+import porankinis_raumuo_3 from "./muscles/porankinis_raumuo/3.png";
 import priekinis_laiptinis_raumuo_1 from "./muscles/priekinis_laiptinis_raumuo/1.png";
 import priekinis_laiptinis_raumuo_2 from "./muscles/priekinis_laiptinis_raumuo/2.png";
 import priekinis_laiptinis_raumuo_3 from "./muscles/priekinis_laiptinis_raumuo/3.png";
@@ -91,6 +108,11 @@ import priekinis_laiptinis_raumuo_4 from "./muscles/priekinis_laiptinis_raumuo/4
 import priekinis_tiesusis_kaklo_raumuo_1 from "./muscles/priekinis_tiesusis_kaklo_raumuo/1.png";
 import priekinis_tiesusis_kaklo_raumuo_2 from "./muscles/priekinis_tiesusis_kaklo_raumuo/2.png";
 import priekinis_tiesusis_kaklo_raumuo_3 from "./muscles/priekinis_tiesusis_kaklo_raumuo/3.png";
+import skersinis_krutines_raumuo_1 from "./muscles/skersinis_krutines_raumuo/1.png";
+import skersinis_krutines_raumuo_2 from "./muscles/skersinis_krutines_raumuo/2.png";
+import skersinis_pilvo_raumuo_1 from "./muscles/skersinis_pilvo_raumuo/1.png";
+import skersinis_pilvo_raumuo_2 from "./muscles/skersinis_pilvo_raumuo/2.png";
+import skersinis_pilvo_raumuo_3 from "./muscles/skersinis_pilvo_raumuo/3.png";
 import smakrinis_liezuvio_raumuo_1 from "./muscles/smakrinis_liezuvio_raumuo/1.png";
 import smakrinis_poliezuvio_raumuo_1 from "./muscles/smakrinis_poliezuvio_raumuo/1.png";
 import smilkininis_raumuo_1 from "./muscles/smilkininis_raumuo/1.png";
@@ -108,6 +130,8 @@ import suglaudziamasis_snerves_raumuo_2 from "./muscles/suglaudziamasis_snerves_
 import sukamasis_galvos_raumuo_1 from "./muscles/sukamasis_galvos_raumuo/1.png";
 import sukamasis_galvos_raumuo_2 from "./muscles/sukamasis_galvos_raumuo/2.png";
 import sukamasis_galvos_raumuo_3 from "./muscles/sukamasis_galvos_raumuo/3.png";
+import tiesusis_pilvo_raumuo_1 from "./muscles/tiesusis_pilvo_raumuo/1.png";
+import tiesusis_pilvo_raumuo_2 from "./muscles/tiesusis_pilvo_raumuo/2.png";
 import trapecinis_raumuo_1 from "./muscles/trapecinis_raumuo/1.png";
 import trapecinis_raumuo_2 from "./muscles/trapecinis_raumuo/2.png";
 import trapecinis_raumuo_3 from "./muscles/trapecinis_raumuo/3.png";
@@ -124,6 +148,11 @@ import uzpakalinis_virsutinis_dantytasis_raumuo_2 from "./muscles/uzpakalinis_vi
 import uzpakalinis_virsutinis_dantytasis_raumuo_3 from "./muscles/uzpakalinis_virsutinis_dantytasis_raumuo/3.png";
 import uzpakalinis_virsutinis_dantytasis_raumuo_4 from "./muscles/uzpakalinis_virsutinis_dantytasis_raumuo/4.png";
 import uzpakalinis_virsutinis_dantytasis_raumuo_5 from "./muscles/uzpakalinis_virsutinis_dantytasis_raumuo/5.png";
+import vidiniai_tarpkostiniai_raumenys_1 from "./muscles/vidiniai_tarpkostiniai_raumenys/1.png";
+import vidinis_istrizinis_pilvo_raumuo_1 from "./muscles/vidinis_istrizinis_pilvo_raumuo/1.png";
+import vidinis_istrizinis_pilvo_raumuo_2 from "./muscles/vidinis_istrizinis_pilvo_raumuo/2.png";
+import vidinis_istrizinis_pilvo_raumuo_3 from "./muscles/vidinis_istrizinis_pilvo_raumuo/3.png";
+import vidinis_istrizinis_pilvo_raumuo_4 from "./muscles/vidinis_istrizinis_pilvo_raumuo/4.png";
 import vidinis_sparninis_raumuo_1 from "./muscles/vidinis_sparninis_raumuo/1.png";
 import vidinis_sparninis_raumuo_2 from "./muscles/vidinis_sparninis_raumuo/2.png";
 import vidinis_sparninis_raumuo_3 from "./muscles/vidinis_sparninis_raumuo/3.png";
@@ -164,6 +193,7 @@ export const musclesImages = {
     antgalvinis_raumuo_pakausinis_pilvelis_2,
   ],
   ausies_aplinkos_raumenys: [ausies_aplinkos_raumenys_1],
+  diafragma: [diafragma_1, diafragma_2],
   didysis_ir_mazasis_skruosto_raumenys: [
     didysis_ir_mazasis_skruosto_raumenys_1,
     didysis_ir_mazasis_skruosto_raumenys_2,
@@ -187,6 +217,11 @@ export const musclesImages = {
     dvipilvis_raumuo_3,
     dvipilvis_raumuo_4,
   ],
+  dydysis_krutines_raumuo: [
+    dydysis_krutines_raumuo_1,
+    dydysis_krutines_raumuo_2,
+    dydysis_krutines_raumuo_3,
+  ],
   dydysis_rombinis_raumuo: [
     dydysis_rombinis_raumuo_1,
     dydysis_rombinis_raumuo_2,
@@ -200,6 +235,11 @@ export const musclesImages = {
     ilgiausiasis_nugaros_raumuo_2,
     ilgiausiasis_nugaros_raumuo_3,
     ilgiausiasis_nugaros_raumuo_4,
+  ],
+  isoriniai_tarpkostiniai_raumenys: [isoriniai_tarpkostiniai_raumenys_1],
+  istrizinis_pilvo_raumuo: [
+    istrizinis_pilvo_raumuo_1,
+    istrizinis_pilvo_raumuo_2,
   ],
   juoko_raumuo: [juoko_raumuo_1, juoko_raumuo_2],
   keliamasis_lupu_kampo_raumuo: [
@@ -245,6 +285,14 @@ export const musclesImages = {
     krutininis_skydo_raumuo_2,
     krutininis_skydo_raumuo_3,
   ],
+  kvadratinis_juosmens_raumuo: [
+    kvadratinis_juosmens_raumuo_1,
+    kvadratinis_juosmens_raumuo_2,
+  ],
+  mazasis_krutines_raumuo: [
+    mazasis_krutines_raumuo_1,
+    mazasis_krutines_raumuo_2,
+  ],
   mazasis_rombinis_raumuo: [
     mazasis_rombinis_raumuo_1,
     mazasis_rombinis_raumuo_2,
@@ -269,6 +317,10 @@ export const musclesImages = {
     nuleidzimasis_lupu_kampo_raumuo_1,
     nuleidzimasis_lupu_kampo_raumuo_2,
   ],
+  piramidinis_pilvo_raumuo: [
+    piramidinis_pilvo_raumuo_1,
+    piramidinis_pilvo_raumuo_2,
+  ],
   placiajuostis_nugaros_raumuo: [
     placiajuostis_nugaros_raumuo_1,
     placiajuostis_nugaros_raumuo_2,
@@ -280,6 +332,11 @@ export const musclesImages = {
     pleciamasis_snerves_raumuo_2,
   ],
   poodinis_kaklo_raumuo: [poodinis_kaklo_raumuo_1, poodinis_kaklo_raumuo_2],
+  porankinis_raumuo: [
+    porankinis_raumuo_1,
+    porankinis_raumuo_2,
+    porankinis_raumuo_3,
+  ],
   priekinis_laiptinis_raumuo: [
     priekinis_laiptinis_raumuo_1,
     priekinis_laiptinis_raumuo_2,
@@ -290,6 +347,15 @@ export const musclesImages = {
     priekinis_tiesusis_kaklo_raumuo_1,
     priekinis_tiesusis_kaklo_raumuo_2,
     priekinis_tiesusis_kaklo_raumuo_3,
+  ],
+  skersinis_krutines_raumuo: [
+    skersinis_krutines_raumuo_1,
+    skersinis_krutines_raumuo_2,
+  ],
+  skersinis_pilvo_raumuo: [
+    skersinis_pilvo_raumuo_1,
+    skersinis_pilvo_raumuo_2,
+    skersinis_pilvo_raumuo_3,
   ],
   smakrinis_liezuvio_raumuo: [smakrinis_liezuvio_raumuo_1],
   smakrinis_poliezuvio_raumuo: [smakrinis_poliezuvio_raumuo_1],
@@ -318,6 +384,7 @@ export const musclesImages = {
     sukamasis_galvos_raumuo_2,
     sukamasis_galvos_raumuo_3,
   ],
+  tiesusis_pilvo_raumuo: [tiesusis_pilvo_raumuo_1, tiesusis_pilvo_raumuo_2],
   trapecinis_raumuo: [
     trapecinis_raumuo_1,
     trapecinis_raumuo_2,
@@ -341,6 +408,13 @@ export const musclesImages = {
     uzpakalinis_virsutinis_dantytasis_raumuo_3,
     uzpakalinis_virsutinis_dantytasis_raumuo_4,
     uzpakalinis_virsutinis_dantytasis_raumuo_5,
+  ],
+  vidiniai_tarpkostiniai_raumenys: [vidiniai_tarpkostiniai_raumenys_1],
+  vidinis_istrizinis_pilvo_raumuo: [
+    vidinis_istrizinis_pilvo_raumuo_1,
+    vidinis_istrizinis_pilvo_raumuo_2,
+    vidinis_istrizinis_pilvo_raumuo_3,
+    vidinis_istrizinis_pilvo_raumuo_4,
   ],
   vidinis_sparninis_raumuo: [
     vidinis_sparninis_raumuo_1,
